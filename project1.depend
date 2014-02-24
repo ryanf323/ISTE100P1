@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1393260681 source:c:\users\ryan flynn\dropbox\c++2\week05\mp3id3\project1\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+	<iterator>
+	<cstdlib>
+	<string>
+	"Row.h"
+	"CsvHandler.h"
+	"split.h"
+
+1393127965 source:c:\users\ryan flynn\dropbox\c++2\week05\mp3id3\project1\row.cpp
+	"Row.h"
+
+1393127965 c:\users\ryan flynn\dropbox\c++2\week05\mp3id3\project1\row.h
+	<string>
+	<iostream>
+
+1393033250 c:\users\ryan flynn\dropbox\c++2\week05\mp3id3\project1\split.h
+	<string>
+	<vector>
+	<cstdlib>
+	<sstream>
+
+1393258739 source:c:\users\ryan flynn\dropbox\c++2\week05\mp3id3\project1\csvhandler.cpp
+	"CsvHandler.h"
+
+1393258674 c:\users\ryan flynn\dropbox\c++2\week05\mp3id3\project1\csvhandler.h
+	<vector>
+	<fstream>
+
