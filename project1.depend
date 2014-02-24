@@ -31,3 +31,35 @@
 	<vector>
 	<fstream>
 
+1393265480 source:c:\users\ryan flynn\documents\github\iste100p1\row.cpp
+	"Row.h"
+
+1393127965 c:\users\ryan flynn\documents\github\iste100p1\row.h
+	<string>
+	<iostream>
+
+1393264992 source:c:\users\ryan flynn\documents\github\iste100p1\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+	<iterator>
+	<cstdlib>
+	<string>
+	"Row.h"
+	"CsvHandler.h"
+	"split.h"
+
+1393265405 c:\users\ryan flynn\documents\github\iste100p1\csvhandler.h
+	<vector>
+	<fstream>
+
+1393033250 c:\users\ryan flynn\documents\github\iste100p1\split.h
+	<string>
+	<vector>
+	<cstdlib>
+	<sstream>
+
+1393265376 source:c:\users\ryan flynn\documents\github\iste100p1\csvhandler.cpp
+	"CsvHandler.h"
+

@@ -1,8 +1,12 @@
-
+/*****************
+* ISTE-101
+* Project 1
+* CSV Handler Class Header File
+* Edward Alvarez Mercedes
+* Ryan Flynn
+******************/
 #include <vector>
 #include <fstream>
-//#include <>
-//#include <>
 
 using namespace std;
 

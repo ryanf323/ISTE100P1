@@ -7,6 +7,7 @@
 ******************/
 #include "Row.h"
 
+        //Default Constructor
         Row::Row(){
 
         }
@@ -19,6 +20,7 @@
             this -> protocol = protocol;
             this -> info = info;
         }
+
         //Mutators
         void Row::setNumber (string number){
             this -> number = number;

@@ -7,11 +7,16 @@
 ******************/
 #include "CsvHandler.h"
 
-//Constructor
-//CsvHandler::CsvHandler(){
-
-//}
-
+/*********************************
+* Function: parseCsvLine
+* Purpose: Parses a csv line and splits
+*                it by ',' into a string in a
+*                vector.
+* Parameters:  string of the file name to
+                          open and read
+* Returns: A vector where each element
+*                is a line of the CSV file
+*********************************/
 vector<string> CsvHandler::parseCsvLine(string csvLine)
 {
     vector<string> tempVector;
@@ -35,6 +40,16 @@ vector<string> CsvHandler::parseCsvLine(string csvLine)
     return tempVector;
 }
 
+/*********************************
+* Function: readCvs
+* Purpose: Opens a CSV file and splits
+*                the lines into a string in a
+*                vector.
+* Parameters:  string of the file name to
+                          open and read
+* Returns: A vector where each element
+*                is a line of the CSV file
+*********************************/
 vector<string> CsvHandler::readCsv(const string file)
 {
         vector<string> buffer;

@@ -14,11 +14,8 @@
 #include <string>
 #include "Row.h"
 #include "CsvHandler.h"
-#include "split.h"
 
 using namespace std;
-vector<string> readCsv(const string file);
-vector<string> parseCsvLine(const string csvLine);
 
 int main()
 {
@@ -54,12 +51,10 @@ int main()
     }
 
     //Now we have a vector of Row objects!
-    /*cout<<dataSet.at(1).getProtocol() <<endl;
-    cout<<dataSet.at(2).getProtocol() <<endl;
-    cout<<dataSet.at(3).getDestination() <<endl;*/
 
     //Lets create a vector of destination ip addresses
     vector<string> destinationIps;
+
     for (unsigned int i =0; i < dataSet.size(); i++){
         std::vector<std::string>::const_iterator it = std::find(destinationIps.begin(), destinationIps.end(), dataSet.at(i).getDestination());
         if (it == destinationIps.end())
@@ -72,14 +67,13 @@ int main()
     // Time to sort
     std::sort(destinationIps.begin(), destinationIps.end());
 
-
     //Create Output File
     ofstream fout;
     fout.open("sortedIPs.txt");
 
     //output the sorted list
     if (destinationIps.size() == 0 || !fout.is_open()){
-            cout << "An error has occured" << endl;
+            cout << "An error has occured." << endl;
     }else{
         for(unsigned int i =0; i < destinationIps.size(); i++){
             fout << destinationIps.at(i) << endl;
