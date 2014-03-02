@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="CsvHandler.cpp" />
+		<Unit filename="CsvHandler.h" />
 		<Unit filename="Row.cpp" />
 		<Unit filename="Row.h" />
 		<Unit filename="main.cpp" />

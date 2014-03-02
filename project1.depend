@@ -63,3 +63,67 @@
 1393265376 source:c:\users\ryan flynn\documents\github\iste100p1\csvhandler.cpp
 	"CsvHandler.h"
 
+1393607526 source:c:\users\edward\desktop\iste100p1-master (1)\iste100p1-master\csvhandler.cpp
+	"CsvHandler.h"
+
+1393255600 c:\users\edward\desktop\iste100p1-master (1)\iste100p1-master\csvhandler.h
+	<vector>
+	<fstream>
+
+1393698062 source:c:\users\edward\desktop\iste100p1-master (1)\iste100p1-master\row.cpp
+	"Row.h"
+
+1393255600 c:\users\edward\desktop\iste100p1-master (1)\iste100p1-master\row.h
+	<string>
+	<iostream>
+
+1393698062 source:c:\users\edward\desktop\iste100p1-master (1)\iste100p1-master\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+	<iterator>
+	<cstdlib>
+	<string>
+	"Row.h"
+	"CsvHandler.h"
+	"split.h"
+
+1393697708 c:\users\edward\desktop\iste100p1-master (1)\iste100p1-master\split.h
+	<string>
+	<vector>
+	<cstdlib>
+	<sstream>
+
+1393607526 source:c:\users\ryan flynn\dropbox\c++2\iste100p1-master\csvhandler.cpp
+	"CsvHandler.h"
+
+1393255600 c:\users\ryan flynn\dropbox\c++2\iste100p1-master\csvhandler.h
+	<vector>
+	<fstream>
+
+1393779488 source:c:\users\ryan flynn\dropbox\c++2\iste100p1-master\row.cpp
+	"Row.h"
+
+1393255600 c:\users\ryan flynn\dropbox\c++2\iste100p1-master\row.h
+	<string>
+	<iostream>
+
+1393779778 source:c:\users\ryan flynn\dropbox\c++2\iste100p1-master\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+	<iterator>
+	<cstdlib>
+	<string>
+	"Row.h"
+	"CsvHandler.h"
+	"split.h"
+
+1393779488 c:\users\ryan flynn\dropbox\c++2\iste100p1-master\split.h
+	<string>
+	<vector>
+	<cstdlib>
+	<sstream>
+

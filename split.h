@@ -1,3 +1,10 @@
+/*****************
+* ISTE-101
+* Project 1
+* Split Functions
+* Edward Alvarez Mercedes
+* Ryan Flynn
+******************/
 #ifndef SPLIT_H_INCLUDED
 #define SPLIT_H_INCLUDED
 #include <string>
@@ -10,7 +17,7 @@ int split (vector<string>& results, string toParse, char delimiter ){
     int wordCount = 0;
     int firstDelimiter = 0;
     int nextDelimiter =0;
-//cout << "in the split function!" <<endl;
+
 //Get words from beginning to last delimiter
     for (unsigned int i = 0; i < toParse.length(); i++){
             if(toParse.at(i) == delimiter)

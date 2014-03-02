@@ -4,6 +4,9 @@
 * Row Class
 * Edward Alvarez Mercedes
 * Ryan Flynn
+* Purpose: The row class works
+* as a container which stores
+* the fields for the CSV file.
 ******************/
 #include "Row.h"
 

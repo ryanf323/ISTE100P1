@@ -41,7 +41,7 @@ vector<string> CsvHandler::parseCsvLine(string csvLine)
 }
 
 /*********************************
-* Function: readCvs
+* Function: readCsv
 * Purpose: Opens a CSV file and splits
 *                the lines into a string in a
 *                vector.
